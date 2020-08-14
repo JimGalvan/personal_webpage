@@ -152,19 +152,35 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
 }
 .clearfix {
   clear: both;
+}
+
+/* style for experience page */
+
+.title-tag {
+  background-color: #0a0a0a;
+  color: rgb(233, 233, 233);
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+  
+} 
+
+.short-header {
+  min-height: 150px;
 }
 
 /* Styles for larger screens */
